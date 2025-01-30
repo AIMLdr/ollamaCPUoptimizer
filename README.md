@@ -1,6 +1,11 @@
 # ollamaCPUoptimizer
 optiize settings for ollama as a single file
 
+check cpu cores
+```bash
+lscpu | grep "^CPU(s):"
+```
+
 
 ```bash
 nano ~/.bashrc
