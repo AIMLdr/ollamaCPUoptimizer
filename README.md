@@ -8,7 +8,10 @@ lscpu | grep "^CPU(s):"
 Memory-Based Cache (memory): Faster but consumes more RAM<br />
 File-Based Cache (file): Slower but conserves RAM by using disk storage
 ```bash```
-export OLLAMA_KV_CACHE_TYPE=file
+echo 'export OLLAMA_KV_CACHE_TYPE=file' >> ~/.bashrc
+```
+```bash
+source ~./bashrc
 ```
 
 
